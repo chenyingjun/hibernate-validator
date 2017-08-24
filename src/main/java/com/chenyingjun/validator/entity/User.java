@@ -16,7 +16,7 @@ import javax.validation.constraints.Pattern;
 public class User {
     private long id;
 
-    @NotNull(message = "{user.pass.null}")
+    @NotNull(message = "{password.null}")
     private String password;
 
     @NotNull(message = "{user.name.null}")
@@ -24,7 +24,7 @@ public class User {
 
     /** 性别 male：男  female：女 */
     @NotXss
-    @Length(min = 4, max = 6)
+//    @Length(min = 4, max = 6)
     private String sex;
 
     /** 时间 */
