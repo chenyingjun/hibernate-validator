@@ -1,4 +1,4 @@
-package com.chenyingjun.project.config;
+package com.chenyingjun.validator.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -27,7 +27,7 @@ public class Swagger2Config {
                 .apiInfo(apiInfo())
                 .select()
                 //为当前包路径
-                .apis(RequestHandlerSelectors.basePackage("com.chenyingjun.project.rest"))
+                .apis(RequestHandlerSelectors.basePackage("com.chenyingjun.validator.rest"))
                 .paths(PathSelectors.any())
                 .build();
     }

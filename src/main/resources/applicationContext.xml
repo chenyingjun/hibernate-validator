@@ -7,7 +7,7 @@
 	default-lazy-init="true">
 
 	<description>Spring公共配置 </description>
-	
+
 	<context:property-placeholder ignore-resource-not-found="true" location="classpath*:/application.properties" />
 
 </beans>

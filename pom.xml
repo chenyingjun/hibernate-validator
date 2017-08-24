@@ -18,6 +18,7 @@
     <properties>
         <jdk.version>1.7</jdk.version>
         <commons-lang3.version>3.1</commons-lang3.version>
+        <commons.codec.version>1.6</commons.codec.version>
         <springfox-swagger2.version>2.6.1</springfox-swagger2.version>
     </properties>
 
@@ -45,6 +46,18 @@
             <artifactId>springfox-swagger-ui</artifactId>
             <version>${springfox-swagger2.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons-lang3.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>${commons.codec.version}</version>
+        </dependency>
+
     </dependencies>
 
     <build>

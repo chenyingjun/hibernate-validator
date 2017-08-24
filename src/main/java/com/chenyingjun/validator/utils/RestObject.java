@@ -1,4 +1,4 @@
-package com.chenyingjun.project.rest;
+package com.chenyingjun.validator.utils;
 
 import java.io.Serializable;
 
@@ -22,6 +22,9 @@ public class RestObject implements Serializable {
 
     /** 状态码超时 */
     public final static int STATUS_CODE_TIMEOUT = 301;
+
+    /** 参数检验失败 */
+    public final static int STATUS_PARAMETER_ERROR = 501;
 
     /** 返回状态 */
     private int state = STATUS_CODE_SUCCESS;

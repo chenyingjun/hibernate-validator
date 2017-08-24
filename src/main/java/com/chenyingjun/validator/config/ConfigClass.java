@@ -1,4 +1,4 @@
-package com.chenyingjun.project.config;
+package com.chenyingjun.validator.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.ImportResource;
